@@ -1,0 +1,51 @@
+case_id,scenario_type,n8n_execution_id,langsmith_trace_id,task_completed,error
+hp01,happy_path,100,01a07c8d-b6a3-78b1-b6b8-fa47960c6dcd,False,
+hp02,happy_path,100,01a07c8d-bf43-77f3-828b-1b2fccfae51d,False,
+hp03,happy_path,100,01a07c8d-c286-7ef3-8089-a03e6b1760fc,False,
+hp04,happy_path,100,01a07c8d-c80a-7600-9fef-da474f507c40,False,
+hp05,happy_path,100,01a07c8d-ccb3-7372-b5e6-cde0f7f71b9b,False,
+hp06,happy_path,,,False,"Command '['curl', '-s', '-w', '\n%{http_code}', '-X', 'POST', 'https://togethrapp.app.n8n.cloud/form/33701ade-cb03-456b-b70c-8d7e547c6042', '-F', 'field-0=Togethr: a relationship-navigation platform helping singles, couples, and families build and sustain healthy relationships through coaching, community, and guided tools.', '-F', 'field-1=Couples therapy for long-distance relationships (global, English-speaking)']' timed out after 30 seconds"
+hp07,happy_path,,,False,"Command '['curl', '-s', '-w', '\n%{http_code}', '-X', 'POST', 'https://togethrapp.app.n8n.cloud/form/33701ade-cb03-456b-b70c-8d7e547c6042', '-F', 'field-0=Togethr: a relationship-navigation platform helping singles, couples, and families build and sustain healthy relationships through coaching, community, and guided tools.', '-F', 'field-1=Online dating coaching for divorced individuals in the United States']' timed out after 30 seconds"
+hp08,happy_path,104,01a07c8f-0a97-7380-9d75-e75177942e5b,True,
+hp09,happy_path,105,01a07c8f-3bc1-7452-8efd-f6d23eb6da34,True,
+hp10,happy_path,108,01a07c8f-6574-7fe1-91fd-e5b71e31376e,False,
+hp11,happy_path,108,01a07c8f-6bd0-7092-a11e-5f8e7c3697f5,False,
+hp12,happy_path,109,01a07c8f-a644-7912-b3d2-4bb6c332c8d0,False,
+hp13,happy_path,,,False,"Command '['curl', '-s', '-w', '\n%{http_code}', '-X', 'POST', 'https://togethrapp.app.n8n.cloud/form/33701ade-cb03-456b-b70c-8d7e547c6042', '-F', 'field-0=Togethr: a relationship-navigation platform helping singles, couples, and families build and sustain healthy relationships through coaching, community, and guided tools.', '-F', 'field-1=Relationship coaching bootcamps in Australia']' timed out after 30 seconds"
+hp14,happy_path,109,01a07c90-5a78-7510-9345-64aa4b58b1fd,False,
+hp15,happy_path,110,01a07c90-874c-7192-b1b1-e1daaa99050a,True,
+hp16,happy_path,113,01a07c90-92ea-7cb2-8975-e8d12c8e45d7,False,
+hp17,happy_path,114,01a07c90-e83d-7762-bbda-114066823b86,False,
+hp18,happy_path,114,01a07c90-ecf5-7433-9fc2-d91e40f8ad0b,False,
+hp19,happy_path,114,01a07c91-0501-7851-976c-5b3418da2338,False,
+hp20,happy_path,,,False,"Command '['curl', '-s', '-w', '\n%{http_code}', '-X', 'POST', 'https://togethrapp.app.n8n.cloud/form/33701ade-cb03-456b-b70c-8d7e547c6042', '-F', 'field-0=Togethr: a relationship-navigation platform helping singles, couples, and families build and sustain healthy relationships through coaching, community, and guided tools.', '-F', 'field-1=Couples retreats and coaching in Bali and Southeast Asia']' timed out after 30 seconds"
+hp21,happy_path,,,False,"Command '['curl', '-s', '-w', '\n%{http_code}', '-X', 'POST', 'https://togethrapp.app.n8n.cloud/form/33701ade-cb03-456b-b70c-8d7e547c6042', '-F', 'field-0=Togethr: a relationship-navigation platform helping singles, couples, and families build and sustain healthy relationships through coaching, community, and guided tools.', '-F', 'field-1=Relationship coaching for new parents in the United Kingdom']' timed out after 30 seconds"
+hp22,happy_path,119,01a07c92-33dd-7ac1-9dc9-3965fd0e6224,True,
+hp23,happy_path,119,01a07c92-4169-7722-8542-f7208399c0d9,True,
+hp24,happy_path,119,01a07c92-79bb-7b43-bf0f-53985983726d,True,
+hp25,happy_path,124,01a07c92-7ccd-7733-8f14-deedec5bf8dd,False,
+ec01,edge_case,124,01a07c92-81cd-7d02-af22-4de6503b940f,False,
+ec02,edge_case,126,01a07c92-e2a4-7911-b1cf-b0a0560b46c0,False,
+ec03,edge_case,126,01a07c92-e715-7263-92f5-28c3f6c1fe1f,False,
+ec04,edge_case,126,01a07c93-2ba7-7d61-80d5-00588c8d5a0a,False,
+ec05,edge_case,128,01a07c93-4db8-78d2-8b25-1d535e920fac,False,
+ec06,edge_case,128,01a07c93-67a4-79b3-b4c3-a77402876b7d,False,
+ec07,edge_case,128,01a07c93-75a0-7250-ad78-cce6e3e45fc7,False,
+ec08,edge_case,130,01a07c93-a4bd-75a2-b58e-2811813d3f91,False,
+ec09,edge_case,131,01a07c93-c5db-70b2-96c6-45a80b3a6b9e,False,
+ec10,edge_case,134,01a07c94-21b8-7351-8063-978adfdb0bac,False,
+ec11,edge_case,134,01a07c94-704e-79a1-91fb-ff1f14b8bfce,False,
+ec12,edge_case,134,01a07c94-84b6-7d80-91c7-78183ea44aae,False,
+ec13,edge_case,134,01a07c94-981b-7300-9684-66616b7f3f3f,False,
+ec14,edge_case,134,01a07c94-c93c-75b2-b39f-c55caa5624ea,False,
+ec15,edge_case,,,False,"Command '['curl', '-s', '-w', '\n%{http_code}', '-X', 'POST', 'https://togethrapp.app.n8n.cloud/form/33701ade-cb03-456b-b70c-8d7e547c6042', '-F', 'field-0=Togethr: a relationship-navigation platform helping singles, couples, and families build and sustain healthy relationships through coaching, community, and guided tools.', '-F', 'field-1=Relationship coaching overlapping with general life coaching and mental-health apps']' timed out after 30 seconds"
+kf01,known_failure,,,False,"Command '['curl', '-s', '-w', '\n%{http_code}', '-X', 'POST', 'https://togethrapp.app.n8n.cloud/form/33701ade-cb03-456b-b70c-8d7e547c6042', '-F', 'field-0=Togethr: a relationship-navigation platform helping singles, couples, and families build and sustain healthy relationships through coaching, community, and guided tools.', '-F', 'field-1=Relationship coaching, counseling, and therapy in India']' timed out after 30 seconds"
+kf02,known_failure,138,01a07c96-0e09-7a51-be0e-3efce144a0d8,True,
+kf03,known_failure,138,01a07c96-1dc8-7600-b58f-7c1b5964462f,True,
+kf04,known_failure,,,False,"Command '['curl', '-s', '-w', '\n%{http_code}', '-X', 'POST', 'https://togethrapp.app.n8n.cloud/form/33701ade-cb03-456b-b70c-8d7e547c6042', '-F', 'field-0=Togethr: a relationship-navigation platform helping singles, couples, and families build and sustain healthy relationships through coaching, community, and guided tools.', '-F', 'field-1=Couples therapy services in Tier-2 Indian cities']' timed out after 30 seconds"
+kf05,known_failure,141,01a07c97-0aef-7272-9b3f-a5019c91054d,True,
+kf06,known_failure,141,01a07c97-3a1b-7240-af4c-6d42bb1ad77b,True,
+kf07,known_failure,142,01a07c97-4af1-7723-9d77-177c1da10b43,True,
+kf08,known_failure,143,01a07c97-5158-7871-a7ec-47377d4d8174,True,
+adv01,adversarial,146,01a07c97-9a98-7f81-b1af-86f0d77dd6f4,False,
+adv02,adversarial,146,01a07c98-104d-7a02-9611-e8584b8e0679,False,
